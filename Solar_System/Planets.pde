@@ -3,9 +3,10 @@ class Planets {
   // Sun planets
   void sun() {
     // Basic facts about the planet
-    text("Sun's Diameter: 1,392,684 km", 10, 30);
-    text("Equatorial Circumference: 4,370,005.6 km", 10, 50);
-    text("Surface Temperature: 5,500 °C", 10, 70);
+    textAlign(LEFT);
+    text("Sun's Diameter: 1,392,684 km", 25, 30);
+    text("Equatorial Circumference: 4,370,005.6 km", 25, 50);
+    text("Surface Temperature: 5,500 °C", 25, 70);
 
     // Sun Image
     sunImage = loadImage("sun.png");
@@ -30,9 +31,10 @@ class Planets {
 
   void mercury() {
     // Basic facts about the planet
-    text("Distance from Sun: 57.91 million km", 10, 30);
-    text("Orbital period: 88 days", 10, 50);
-    text("Length of day: 58d 15h 30m", 10, 70);
+    textAlign(LEFT);
+    text("Distance from Sun: 57.91 million km", 25, 30);
+    text("Orbital period: 88 days", 25, 50);
+    text("Length of day: 58d 15h 30m", 25, 70);
 
 
     // Mercury Image
@@ -58,9 +60,10 @@ class Planets {
 
   void venus() {
     // Basic facts about the planet
-    text("Distance from Sun: 108.2 million km", 10, 30);
-    text("Orbital period: 225 days", 10, 50);
-    text("Length of day: 116d 18h 0m", 10, 70);
+    textAlign(LEFT);
+    text("Distance from Sun: 108.2 million km", 25, 30);
+    text("Orbital period: 225 days", 25, 50);
+    text("Length of day: 116d 18h 0m", 25, 70);
 
     // Mercury Image
     venusImage = loadImage("venus.png");
@@ -85,9 +88,10 @@ class Planets {
 
   void earth() {
     // Basic facts about the planet
-    text("Distance from Sun: 149.6 million km", 10, 30);
-    text("Orbital period: 365 days", 10, 50);
-    text("Length of day: 24 hours", 10, 70);
+    textAlign(LEFT);
+    text("Distance from Sun: 149.6 million km", 25, 30);
+    text("Orbital period: 365 days", 25, 50);
+    text("Length of day: 24 hours", 25, 70);
 
     // Earth Image
     earthImage = loadImage("earth.png");
@@ -112,9 +116,10 @@ class Planets {
 
   void mars() {
     // Basic facts about the planet
-    text("Distance from Sun: 227.9 million km", 10, 30);
-    text("Orbital period: 687 days", 10, 50);
-    text("Length of day: 1d 0h 37m", 10, 70);
+    textAlign(LEFT);
+    text("Distance from Sun: 227.9 million km", 25, 30);
+    text("Orbital period: 687 days", 25, 50);
+    text("Length of day: 1d 0h 37m", 25, 70);
 
     // Mars Image
     marsImage = loadImage("mars.png");
@@ -139,9 +144,10 @@ class Planets {
 
   void jupiter() {
     // Basic facts about the planet
-    text("Distance from Sun: 778.5 million km", 10, 30);
-    text("Orbital period: 12 years", 10, 50);
-    text("Length of day: 0d 9h 56m", 10, 70);
+    textAlign(LEFT);
+    text("Distance from Sun: 778.5 million km", 25, 30);
+    text("Orbital period: 12 years", 25, 50);
+    text("Length of day: 0d 9h 56m", 25, 70);
     
     // Mars Image
     jupiterImage = loadImage("jupiter.png");
@@ -166,9 +172,10 @@ class Planets {
 
   void saturn() {
     // Basic facts about the planet
-    text("Distance from Sun: 1.434 billion km", 10, 30);
-    text("Orbital period: 29 years", 10, 50);
-    text("Length of day: 0d 10h 42m", 10, 70);
+    textAlign(LEFT);
+    text("Distance from Sun: 1.434 billion km", 25, 30);
+    text("Orbital period: 29 years", 25, 50);
+    text("Length of day: 0d 10h 42m", 25, 70);
 
     // Mars Image
     saturnImage = loadImage("saturn.png");
@@ -193,9 +200,10 @@ class Planets {
 
   void uranus() {
     // Basic facts about the planet
-    text("Distance from Sun: 2.871 billion km", 10, 30);
-    text("Orbital period: 84 years", 10, 50);
-    text("Length of day: 0d 17h 0m", 10, 70);
+    textAlign(LEFT);
+    text("Distance from Sun: 2.871 billion km", 25, 30);
+    text("Orbital period: 84 years", 25, 50);
+    text("Length of day: 0d 17h 0m", 25, 70);
 
     // Mars Image
     uranusImage = loadImage("uranus.png");
@@ -220,9 +228,10 @@ class Planets {
 
   void neptune() {
     // Basic facts about the planet
-    text("Distance from Sun: 4.495 billion km", 10, 30);
-    text("Orbital period: 165 years", 10, 50);
-    text("Length of day: 0d 16h 6m", 10, 70);
+    textAlign(LEFT);
+    text("Distance from Sun: 4.495 billion km", 25, 30);
+    text("Orbital period: 165 years", 25, 50);
+    text("Length of day: 0d 16h 6m", 25, 70);
 
     // Mars Image
     neptuneImage = loadImage("neptune.png");
