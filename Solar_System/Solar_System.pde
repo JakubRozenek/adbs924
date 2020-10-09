@@ -51,10 +51,12 @@ void draw() {
   // Key Pressed Subroutine
   keyPressed();
   
+  pushMatrix();
   // Text on how to view planets
   textAlign(CENTER);
   textSize(18);
   text("To view the planets please press and hold the numbers from 1 - 9.", width / 2, 550);
+  popMatrix();
 }
 
 
